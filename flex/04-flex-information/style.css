@@ -1,10 +1,19 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  width:50%
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.title {
+display:flex;
+justify-content:center;
+align-items: center;
+width: 1px;
+padding-left: 60vw;
 }
 
 .title {
@@ -23,4 +32,24 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.fullplant {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  gap:10%
+}
+.plantcon {
+  border:none;
+}
+
+.text {
+  width:200px;
+}
+
+img {
+  display:flex;
+  padding-left:30px;
 }
